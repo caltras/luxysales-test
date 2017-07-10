@@ -1,4 +1,5 @@
 ***TASKS***
+
 We would like you to program a very small application using Java, Node.js and React.js. The deadline for completing the task and sending back is Monday, 10th July 23:59.
 
 The task is the following:
@@ -31,6 +32,7 @@ But I finished 5 from 6 tasks.
 6) React requests nodejs to form grammatically correct phrases with the random words - DONE
 
 ***RUN***
+
 It's Necessary installing Mysql and create the database "luxysales" with user "luxysales" and password "luxysales".
 
 Java:
