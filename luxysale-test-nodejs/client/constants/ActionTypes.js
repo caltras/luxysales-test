@@ -1,0 +1,3 @@
+export const SAVE_WORD="SAVE_WORD";
+export const SHOW_WORDS="SHOW_WORDS";
+export const GENERATE_PHRASES="GENERATE_PHRASES";

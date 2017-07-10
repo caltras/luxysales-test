@@ -1,0 +1,41 @@
+{
+  "name": "luxysale-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "Claudio Traspadini Oliveira <caltras@gmailcom.com>",
+  "scripts": {
+    "start": "webpack-dev-server & node ./bin/www"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "html-webpack-plugin": "^2.26.0",
+    "static-site-generator-webpack-plugin": "^3.4.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "mysql": "^2.13.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.1",
+    "redux-devtools": "^3.4.0",
+    "request": "^2.81.0",
+    "serve-favicon": "~2.4.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

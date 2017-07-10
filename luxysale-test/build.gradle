@@ -1,0 +1,28 @@
+plugins {
+    id 'org.springframework.boot' version '1.5.4.RELEASE'
+    id 'java'
+}
+
+
+jar {
+    baseName = 'luxysale-test'
+    version =  '0.0.1-SNAPSHOT'
+}
+
+repositories {
+    jcenter()
+}
+bootRepackage {
+    mainClass = 'com.luxysale.words.Application'
+}
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.thymeleaf:thymeleaf-spring4")
+    compile("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect")
+    // JPA Data (We are going to use Repositories, Entities, Hibernate, etc...)
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    // Use MySQL Connector-J
+    compile 'mysql:mysql-connector-java'
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+}

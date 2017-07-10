@@ -1,0 +1,115 @@
+.flex{
+	display: flex;
+	flex-direction: column;
+}
+.flexItem{
+	flex:1;
+}
+.wordWrapper{
+	border:solid 1px #ccc;
+	/*height: 40px;*/
+	font-size:24px;
+	color:#333;
+	padding:15px;
+	text-align: center;
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+.btnShowWords:hover{
+	background-color: #46b8da;
+}
+.btnShowWords{
+	color: white;
+    background-color: #5bc0de;
+    border: solid 1px #46b8da;
+    width: 100%;
+    font-size:20px;
+}
+.btnDefault,.btnSaveWord, .btnPrimary,.btnShowWords,.btnPhrase{
+	border-radius:4px;
+	padding:10px;
+	cursor: pointer;
+	margin-top: 5px;
+}
+.btnDefault{
+	color: #333;
+    background-color: white;
+    width: 100%;
+    font-size:20px;
+    border:none;
+}
+.btnDefault:hover{
+	background-color: #fafafa;
+}
+.btnSaveWord:hover{
+	background-color:#4cae4c;
+}
+.btnSaveWord{
+	color: white;
+    background-color: #5cb85c;
+    border: solid 1px #4cae4c;
+    width: 100%;
+    font-size:20px;
+}
+.btnPrimary:hover{
+	background-color: #2e6da4;
+}
+.btnPrimary{
+	color: white;
+    background-color: #337ab7;
+    border: solid 1px #2e6da4;
+    width: 100%;
+    font-size:20px;
+}
+.btnPhrase{
+	color:white;
+	background-color: #d9534f;
+	border:solid 1px #d43f3a;
+	width: 100%;
+    font-size:20px;
+}
+.btnPhrase:hover{
+	background-color: #d43f3a;
+}
+.newWord{
+
+}
+.error{
+	color:red;
+}
+.wordsList{
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-color:rgba(0,0,0,0.5);
+	width:100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box{
+	background-color: white;
+	width:360px;
+	border-radius:4px;
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
+}
+.boxTitle{
+	font-size:18px;
+	border-bottom:solid 1px #ccc;
+	margin-bottom:5px;
+	margin-top:10px;
+	text-align: center;
+}
+.boxFooter{
+	font-size:18px;
+	border-top:solid 1px #ccc;
+	margin-bottom:10px;
+	margin-top:5px;
+	text-align: right; 	
+}
+.contentList{
+	max-height: 600px;
+	overflow-y: auto;
+}
